@@ -171,6 +171,7 @@ define HISILICON_OSDRV_HI3516CV6XX_INSTALL_TARGET_CMDS
 	# (OpenIPC/majestic#355), day and IR halves, trimmed the same way. About
 	# 10 KB compressed.
 	$(INSTALL) -m 644 -t $(TARGET_DIR)/etc/sensors/iq $(HISILICON_OSDRV_HI3516CV6XX_PKGDIR)/files/sensor/iq/cv2003.ini
+	$(INSTALL) -m 644 -t $(TARGET_DIR)/etc/sensors/iq $(HISILICON_OSDRV_HI3516CV6XX_PKGDIR)/files/sensor/iq/cv2005.ini
 
 	# GC4653, VS4388 and MIS20S1: the same vendor's own tuning for them, from
 	# the stock firmware of its CV610 cameras (OpenIPC/majestic#356, #357),
@@ -194,6 +195,7 @@ define HISILICON_OSDRV_HI3516CV6XX_INSTALL_TARGET_CMDS
 	# gc4653 and vs4388, the names majestic looks these profiles up by.
 	$(INSTALL) -m 644 -t $(TARGET_DIR)/etc/sensors \
 		$(HISILICON_OSDRV_HI3516CV6XX_PKGDIR)/files/sensor/config/cv2003_i2c_1080p.ini \
+		$(HISILICON_OSDRV_HI3516CV6XX_PKGDIR)/files/sensor/config/cv2005_i2c_1080p.ini \
 		$(HISILICON_OSDRV_HI3516CV6XX_PKGDIR)/files/sensor/config/gc4653_i2c_4M.ini \
 		$(HISILICON_OSDRV_HI3516CV6XX_PKGDIR)/files/sensor/config/vs4388_i2c_4M.ini
 
