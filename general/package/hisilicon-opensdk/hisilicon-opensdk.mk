@@ -4,8 +4,8 @@
 #
 ################################################################################
 
-HISILICON_OPENSDK_SITE = $(call github,openipc,openhisilicon,$(HISILICON_OPENSDK_VERSION))
-HISILICON_OPENSDK_VERSION = 560559da3e58814d841f0624cd421990bd0b69bb
+HISILICON_OPENSDK_SITE = $(call github,ErezWeiss1,openhisilicon,$(HISILICON_OPENSDK_VERSION))
+HISILICON_OPENSDK_VERSION = 2c1692572efabec939f755ea5a79b6d163639375
 
 HISILICON_OPENSDK_LICENSE = GPL-3.0
 HISILICON_OPENSDK_LICENSE_FILES = LICENSE
@@ -266,6 +266,7 @@ HISILICON_OPENSDK_SENSORS_hi3516cv200 = \
 	sony_imx222/libsns_imx222
 HISILICON_OPENSDK_SENSORS_hi3516cv6xx = \
 	cvsens_cv2003/libsns_cv2003 \
+	cvsens_cv2005/libsns_cv2005 \
 	galaxycore_gc2063/libsns_gc2063 \
 	galaxycore_gc4023/libsns_gc4023 \
 	galaxycore_gc4653/libsns_gc4653 \
