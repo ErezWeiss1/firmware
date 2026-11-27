@@ -5,7 +5,7 @@
 ################################################################################
 
 HISILICON_OPENSDK_SITE = $(call github,ErezWeiss1,openhisilicon,$(HISILICON_OPENSDK_VERSION))
-HISILICON_OPENSDK_VERSION = 36df168e0e4f6b19ff7d65d3ffbeb5682e08c223
+HISILICON_OPENSDK_VERSION = 8f5df3d494ce30e29036f957262e9c900f9b4ef0
 
 HISILICON_OPENSDK_LICENSE = GPL-3.0
 HISILICON_OPENSDK_LICENSE_FILES = LICENSE
